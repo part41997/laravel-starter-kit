@@ -1,0 +1,617 @@
+{
+  "sections": [
+    {
+      "title": "Section 1",
+      "description": "This section assesses your attachment style.",
+      "question_type": "true_false",
+      "questions": [
+        {
+          "question": "I find it relatively easy to get close to others and am comfortable depending on them and having them depend on me.",
+          "type": "true_false",
+          "description": "Please indicate whether you agree or disagree with the statement.",
+          "options": [
+            {
+              "option": "Yes",
+              "score": 1
+            },
+            {
+              "option": "No",
+              "score": 0
+            }
+          ],
+          "result_type": "Secure"
+        }
+      ]
+    },
+    {
+      "title": "Section 2",
+      "description": "This section assesses your communication style.",
+      "question_type": "single_choice",
+      "questions": [
+        {
+          "question": "How do you usually express your feelings when you are upset?",
+          "type": "single_choice",
+          "description": "Please select the option that best describes your behavior.",
+          "options": [
+            {
+              "option": "Talk about it openly",
+              "score": 2
+            },
+            {
+              "option": "Keep it to myself",
+              "score": 0
+            },
+            {
+              "option": "Express indirectly",
+              "score": 1
+            }
+          ],
+          "result_type": "Anxious"
+        }
+      ]
+    },
+    {
+      "title": "Section 3",
+      "description": "This section assesses your level of trust in relationships.",
+      "question_type": "likert_scale",
+      "questions": [
+        {
+          "question": "I trust others easily.",
+          "type": "likert_scale",
+          "description": "Please rate the statement based on your agreement.",
+          "options": [
+            {
+              "option": "Strongly Disagree",
+              "score": 1
+            },
+            {
+              "option": "Disagree",
+              "score": 2
+            },
+            {
+              "option": "Neutral",
+              "score": 3
+            },
+            {
+              "option": "Agree",
+              "score": 4
+            },
+            {
+              "option": "Strongly Agree",
+              "score": 5
+            }
+          ],
+          "result_type": "Secure"
+        },
+        {
+          "question": "I find it difficult to trust others.",
+          "type": "likert_scale",
+          "description": "Please rate the statement based on your agreement.",
+          "options": [
+            {
+              "option": "Strongly Disagree",
+              "score": 5
+            },
+            {
+              "option": "Disagree",
+              "score": 4
+            },
+            {
+              "option": "Neutral",
+              "score": 3
+            },
+            {
+              "option": "Agree",
+              "score": 2
+            },
+            {
+              "option": "Strongly Agree",
+              "score": 1
+            }
+          ],
+          "result_type": "Anxious"
+        }
+      ]
+    },
+    {
+      "title": "Section 4",
+      "description": "This section assesses your approach to conflict resolution.",
+      "question_type": "single_choice",
+      "questions": [
+        {
+          "question": "How do you typically handle conflicts in your relationships?",
+          "type": "single_choice",
+          "description": "Please select the option that best describes your approach.",
+          "options": [
+            {
+              "option": "Confront the issue directly",
+              "score": 3
+            },
+            {
+              "option": "Avoid confrontation",
+              "score": 1
+            },
+            {
+              "option": "Seek compromise",
+              "score": 2
+            },
+            {
+              "option": "Seek mediation",
+              "score": 4
+            }
+          ],
+          "result_type": "Fearful-Avoidant"
+        }
+      ]
+    },
+    {
+      "title": "Section 5",
+      "description": "This section assesses your need for emotional closeness.",
+      "question_type": "likert_scale",
+      "questions": [
+        {
+          "question": "I feel uncomfortable when people are emotionally distant.",
+          "type": "likert_scale",
+          "description": "Please rate the statement based on your agreement.",
+          "options": [
+            {
+              "option": "Strongly Disagree",
+              "score": 1
+            },
+            {
+              "option": "Disagree",
+              "score": 2
+            },
+            {
+              "option": "Neutral",
+              "score": 3
+            },
+            {
+              "option": "Agree",
+              "score": 4
+            },
+            {
+              "option": "Strongly Agree",
+              "score": 5
+            }
+          ],
+          "result_type": "Secure"
+        },
+        {
+          "question": "I feel happiest when I am close to others.",
+          "type": "likert_scale",
+          "description": "Please rate the statement based on your agreement.",
+          "options": [
+            {
+              "option": "Strongly Disagree",
+              "score": 5
+            },
+            {
+              "option": "Disagree",
+              "score": 4
+            },
+            {
+              "option": "Neutral",
+              "score": 3
+            },
+            {
+              "option": "Agree",
+              "score": 2
+            },
+            {
+              "option": "Strongly Agree",
+              "score": 1
+            }
+          ],
+          "result_type": "Anxious"
+        }
+      ]
+    },
+    {
+      "title": "Section 6",
+      "description": "This section assesses your comfort with vulnerability.",
+      "question_type": "single_choice",
+      "questions": [
+        {
+          "question": "How comfortable are you with expressing vulnerability?",
+          "type": "single_choice",
+          "description": "Please select the option that best describes your comfort level.",
+          "options": [
+            {
+              "option": "Very comfortable",
+              "score": 4
+            },
+            {
+              "option": "Somewhat comfortable",
+              "score": 3
+            },
+            {
+              "option": "Neutral",
+              "score": 2
+            },
+            {
+              "option": "Somewhat uncomfortable",
+              "score": 1
+            }
+          ],
+          "result_type": "Secure"
+        }
+      ]
+    },
+    {
+      "title": "Section 7",
+      "description": "This section assesses your perception of personal boundaries.",
+      "question_type": "single_choice",
+      "questions": [
+        {
+          "question": "How important are personal boundaries to you?",
+          "type": "single_choice",
+          "description": "Please select the option that best describes your attitude.",
+          "options": [
+            {
+              "option": "Very important",
+              "score": 4
+            },
+            {
+              "option": "Somewhat important",
+              "score": 3
+            },
+            {
+              "option": "Neutral",
+              "score": 2
+            },
+            {
+              "option": "Not very important",
+              "score": 1
+            }
+          ],
+          "result_type": "Avoidant-Dismissive"
+        }
+      ]
+    },
+    {
+      "title": "Section 8",
+      "description": "This section assesses your response to emotional distress.",
+      "question_type": "single_choice",
+      "questions": [
+        {
+          "question": "How do you typically respond to emotional distress?",
+          "type": "single_choice",
+          "description": "Please select the option that best describes your behavior.",
+          "options": [
+            {
+              "option": "Seek support from others",
+              "score": 3
+            },
+            {
+              "option": "Deal with it privately",
+              "score": 1
+            },
+            {
+              "option": "Engage in distracting activities",
+              "score": 2
+            },
+            {
+              "option": "Seek professional help",
+              "score": 4
+            }
+          ],
+          "result_type": "Fearful-Avoidant"
+        }
+      ]
+    },
+    {
+      "title": "Section 9",
+      "description": "This section assesses your tendency to avoid or confront problems.",
+      "question_type": "single_choice",
+      "questions": [
+        {
+          "question": "How do you usually deal with problems in your relationships?",
+          "type": "single_choice",
+          "description": "Please select the option that best describes your approach.",
+          "options": [
+            {
+              "option": "Confront the issue directly",
+              "score": 3
+            },
+            {
+              "option": "Avoid confrontation",
+              "score": 1
+            },
+            {
+              "option": "Seek compromise",
+              "score": 2
+            },
+            {
+              "option": "Seek mediation",
+              "score": 4
+            }
+          ],
+          "result_type": "Avoidant-Dismissive"
+        }
+      ]
+    },
+    {
+      "title": "Section 10",
+      "description": "This section assesses your need for independence.",
+      "question_type": "likert_scale",
+      "questions": [
+        {
+          "question": "I value my independence above all else.",
+          "type": "likert_scale",
+          "description": "Please rate the statement based on your agreement.",
+          "options": [
+            {
+              "option": "Strongly Disagree",
+              "score": 1
+            },
+            {
+              "option": "Disagree",
+              "score": 2
+            },
+            {
+              "option": "Neutral",
+              "score": 3
+            },
+            {
+              "option": "Agree",
+              "score": 4
+            },
+            {
+              "option": "Strongly Agree",
+              "score": 5
+            }
+          ],
+          "result_type": "Avoidant-Dismissive"
+        },
+        {
+          "question": "I prefer to make decisions independently.",
+          "type": "likert_scale",
+          "description": "Please rate the statement based on your agreement.",
+          "options": [
+            {
+              "option": "Strongly Disagree",
+              "score": 5
+            },
+            {
+              "option": "Disagree",
+              "score": 4
+            },
+            {
+              "option": "Neutral",
+              "score": 3
+            },
+            {
+              "option": "Agree",
+              "score": 2
+            },
+            {
+              "option": "Strongly Agree",
+              "score": 1
+            }
+          ],
+          "result_type": "Secure"
+        }
+      ]
+    },
+    {
+      "title": "Section 11",
+      "description": "This section assesses your empathy towards others.",
+      "question_type": "single_choice",
+      "questions": [
+        {
+          "question": "How empathetic do you consider yourself to be?",
+          "type": "single_choice",
+          "description": "Please select the option that best describes your level of empathy.",
+          "options": [
+            {
+              "option": "Very empathetic",
+              "score": 4
+            },
+            {
+              "option": "Somewhat empathetic",
+              "score": 3
+            },
+            {
+              "option": "Neutral",
+              "score": 2
+            },
+            {
+              "option": "Not very empathetic",
+              "score": 1
+            }
+          ],
+          "result_type": "Secure"
+        }
+      ]
+    },
+    {
+      "title": "Section 12",
+      "description": "This section assesses your need for social approval.",
+      "question_type": "likert_scale",
+      "questions": [
+        {
+          "question": "I feel uncomfortable when I am not liked by others.",
+          "type": "likert_scale",
+          "description": "Please rate the statement based on your agreement.",
+          "options": [
+            {
+              "option": "Strongly Disagree",
+              "score": 1
+            },
+            {
+              "option": "Disagree",
+              "score": 2
+            },
+            {
+              "option": "Neutral",
+              "score": 3
+            },
+            {
+              "option": "Agree",
+              "score": 4
+            },
+            {
+              "option": "Strongly Agree",
+              "score": 5
+            }
+          ],
+          "result_type": "Anxious"
+        },
+        {
+          "question": "I often seek approval from others before making decisions.",
+          "type": "likert_scale",
+          "description": "Please rate the statement based on your agreement.",
+          "options": [
+            {
+              "option": "Strongly Disagree",
+              "score": 5
+            },
+            {
+              "option": "Disagree",
+              "score": 4
+            },
+            {
+              "option": "Neutral",
+              "score": 3
+            },
+            {
+              "option": "Agree",
+              "score": 2
+            },
+            {
+              "option": "Strongly Agree",
+              "score": 1
+            }
+          ],
+          "result_type": "Anxious"
+        }
+      ]
+    },
+    {
+      "title": "Section 13",
+      "description": "This section assesses your perception of self-worth.",
+      "question_type": "single_choice",
+      "questions": [
+        {
+          "question": "How would you rate your self-esteem?",
+          "type": "single_choice",
+          "description": "Please select the option that best describes your self-perception.",
+          "options": [
+            {
+              "option": "High",
+              "score": 4
+            },
+            {
+              "option": "Moderate",
+              "score": 3
+            },
+            {
+              "option": "Low",
+              "score": 2
+            },
+            {
+              "option": "Very low",
+              "score": 1
+            }
+          ],
+          "result_type": "Secure"
+        }
+      ]
+    },
+    {
+      "title": "Section 14",
+      "description": "This section assesses your need for validation.",
+      "question_type": "likert_scale",
+      "questions": [
+        {
+          "question": "I often seek validation from others.",
+          "type": "likert_scale",
+          "description": "Please rate the statement based on your agreement.",
+          "options": [
+            {
+              "option": "Strongly Disagree",
+              "score": 1
+            },
+            {
+              "option": "Disagree",
+              "score": 2
+            },
+            {
+              "option": "Neutral",
+              "score": 3
+            },
+            {
+              "option": "Agree",
+              "score": 4
+            },
+            {
+              "option": "Strongly Agree",
+              "score": 5
+            }
+          ],
+          "result_type": "Anxious"
+        },
+        {
+          "question": "I feel validated when others acknowledge my achievements.",
+          "type": "likert_scale",
+          "description": "Please rate the statement based on your agreement.",
+          "options": [
+            {
+              "option": "Strongly Disagree",
+              "score": 5
+            },
+            {
+              "option": "Disagree",
+              "score": 4
+            },
+            {
+              "option": "Neutral",
+              "score": 3
+            },
+            {
+              "option": "Agree",
+              "score": 2
+            },
+            {
+              "option": "Strongly Agree",
+              "score": 1
+            }
+          ],
+          "result_type": "Anxious"
+        }
+      ]
+    },
+    {
+      "title": "Section 15",
+      "description": "This section assesses your perception of personal autonomy.",
+      "question_type": "single_choice",
+      "questions": [
+        {
+          "question": "How important is personal autonomy to you?",
+          "type": "single_choice",
+          "description": "Please select the option that best describes your attitude.",
+          "options": [
+            {
+              "option": "Very important",
+              "score": 4
+            },
+            {
+              "option": "Somewhat important",
+              "score": 3
+            },
+            {
+              "option": "Neutral",
+              "score": 2
+            },
+            {
+              "option": "Not very important",
+              "score": 1
+            }
+          ],
+          "result_type": "Avoidant-Dismissive"
+        }
+      ]
+    }
+  ]
+}
